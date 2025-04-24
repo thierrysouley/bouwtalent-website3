@@ -3,8 +3,6 @@
 import { useState } from "react";
 
 export default function HomePage() {
-  const [email, setEmail] = useState("");
-  const [language, setLanguage] = useState("NL");
   const [formData, setFormData] = useState({ naam: "", telefoon: "", cv: null });
 
   const handleFileChange = (e) => {
